@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.fancybox">
+
+  <browser:resourceDirectory
+      name="collective.fancybox"
+      directory="fancybox"
+      />
+      
+  <genericsetup:registerProfile
+      name="default"
+      title="Fancybox libraries"
+      directory="profiles/default"
+      description="Brings jQuery fancybox Javascript and styles"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+      
+</configure>

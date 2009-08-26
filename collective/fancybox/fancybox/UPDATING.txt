@@ -1,0 +1,9 @@
+Update notes to newer version of Fancybox library
+-------------------------------------------------
+
+jquery.fancybox.css - all ocurrences of url(..) with images are replaced with
+++resource++collective.fancybox/<original image>
+
+jquery.fancybox.pack.js - no changes
+
+jquery.easing.js - not used nor registered in portal_javascript now
