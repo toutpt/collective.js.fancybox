@@ -13,17 +13,16 @@ Please note, Plone often generates image URLs without extension suffix, eg.
 http://host/portal/news/news-item/image_preview returns correct image to the
 browser with correct content type set, but Fancybox does not handle such URLs
 correctly. Fancybox competitor, Thickbox, works fine in this situation.
-Please read
-http://groups.google.com/group/fancybox/browse_thread/thread/8df1379566348b48
-Fast solution, which may help sometimes, is eg::
 
-    <a class="fancybox" 
-       tal:attributes="href string:${context/absolute_url}/image?ext=.jpg">
-         <img tal:attributes="src string:${context/absolute_url}/image_thumb" />
-    </a>
+From FancyBox FAQ::
 
-FAQ about Fancybox behaviour is here:
-http://groups.google.com/group/fancybox/browse_thread/thread/ec192bd4db92d496
+ 6. I`m using custom urls for images (for example,
+ index.php?action=dlattach;topic=3.0;attach=9;image) and FancyBox shows source
+ of image. Why?
+ 
+ FancyBox gueses content type from url but sometimes it can be wrong. The
+ solution is to force your type, like so - $(".selector").fancybox({'type' :
+ 'image'});
 
 Usage
 -----
