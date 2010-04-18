@@ -18,4 +18,13 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
       
+  <!-- Special browser resources which must be parsed for DTML -->
+  <browser:page
+      name="jquery.fancybox.css"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".dtmlresource.DTMLResource"
+      attribute="fancybox_css"
+      permission="zope.Public"
+      />  
+
 </configure>

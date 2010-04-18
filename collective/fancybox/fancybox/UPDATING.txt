@@ -2,7 +2,8 @@ Update notes to newer version of Fancybox library
 -------------------------------------------------
 
 jquery.fancybox.css - all ocurrences of url(..) with images are replaced with
-++resource++collective.fancybox/<original image>
+&dtml-portal_url;/++resource++collective.fancybox/<original image>
+and the file contains dtml-let and dtml-with statements
 
 jquery.fancybox.pack.js - no changes
 

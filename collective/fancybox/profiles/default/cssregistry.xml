@@ -1,9 +1,18 @@
 <?xml version="1.0"?>
 <object name="portal_css">
+ 
+ <!-- this is DTML browser resource registered for portal root.
+      See configure.zcml -->
  <stylesheet title=""
-    id="++resource++collective.fancybox/jquery.fancybox.css"
+    id="jquery.fancybox.css"
     media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
+
+ <!-- Old version -->
+ <stylesheet remove="True"
+    id="++resource++collective.fancybox/jquery.fancybox.css"
+     />
+     
 </object>
 
