@@ -1,6 +1,15 @@
 Changelog
 =========
 
+0.4.1 - 2010-04-17
+------------------
+
+* Fixed order in portal_javascripts
+
+* Fixed image names for IE
+
+* added z3c autoinclude plugin
+
 0.4 - 2010-04-17
 ----------------
 
