@@ -1,6 +1,11 @@
 Changelog
 =========
 
+dev
+----------------
+
+- Fixed relative URLs for IE
+
 0.5 - 2011-09-22
 ----------------
 
