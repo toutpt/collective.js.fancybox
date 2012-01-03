@@ -7,7 +7,7 @@
 
   <browser:resourceDirectory
       name="collective.fancybox"
-      directory="fancybox"
+      directory="resources"
       />
       
   <genericsetup:registerProfile
@@ -17,14 +17,7 @@
       description="Brings jQuery fancybox Javascript and styles"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-      
-  <!-- Special browser resources which must be parsed for DTML -->
-  <browser:page
-      name="jquery.fancybox.css"
-      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
-      class=".dtmlresource.DTMLResource"
-      attribute="fancybox_css"
-      permission="zope.Public"
-      />  
+
+  <include file="upgrades.zcml"/>
 
 </configure>
