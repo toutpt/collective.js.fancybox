@@ -1,9 +1,9 @@
 Update notes to newer version of Fancybox library
 -------------------------------------------------
+OLD VERSION was using dtml stuff to replace url statement. Now css registry
+support applyPrefix option, so no need to update css file
 
-jquery.fancybox.css - all ocurrences of url(..) with images are replaced with
-&dtml-portal_url;/++resource++collective.fancybox/<original image>
-and the file contains dtml-let and dtml-with statements
+Note: fancybox 2.0 need jquery >= 1.6
 
 jquery.fancybox.pack.js - no changes
 
