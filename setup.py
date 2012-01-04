@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.3.4.1'
+version = '1.3.4.2.dev0'
 
 setup(name='collective.js.fancybox',
       version=version,
