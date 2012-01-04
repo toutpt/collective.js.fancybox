@@ -6,15 +6,15 @@
     i18n_domain="collective.js.fancybox">
 
   <browser:resourceDirectory
-      name="collective.fancybox"
+      name="collective.js.fancybox"
       directory="resources"
       />
       
   <genericsetup:registerProfile
       name="default"
-      title="Fancybox libraries"
+      title="collective.js.fancybox"
       directory="profiles/default"
-      description="Brings jQuery fancybox Javascript and styles"
+      description="Register jQuery fancybox Javascript and styles into Plone resource registries"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
