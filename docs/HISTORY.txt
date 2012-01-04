@@ -1,42 +1,8 @@
 Changelog
 =========
 
-0.5.1 - 2011-10-08
-------------------
+1.3.4 - (unreleased)
+--------------------
 
-- Fixed relative URLs for IE in CSS file
-
-0.5 - 2011-09-22
-----------------
-
-- Updated to fancybox 1.3.4
-
-0.4.1 - 2010-04-17
-------------------
-
-* Fixed order in portal_javascripts
-
-* Fixed image names for IE
-
-* added z3c autoinclude plugin
-
-0.4 - 2010-04-17
-----------------
-
-* CSS file is DTML resource now
-
-0.3 - 2010-04-14
-----------------
-
-* fixed paths in CSS file
-
-0.2 - 2010-03-15
-----------------
-
-* Updated to fancybox 1.3.1
-
-0.1 - 2009-08-26
-----------------
-
-* Initial release
-
+- rename from collective.fancybox.
+  [toutpt]
